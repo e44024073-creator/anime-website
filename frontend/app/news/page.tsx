@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { Metadata } from "next";
 import React from "react";
 import styles from "./page.module.css";
@@ -9,7 +10,7 @@ import SvgCalendar from "@/public/assets/calendar3.svg";
 import { News } from "../ts/interfaces/newsInterface";
 import NewsCard from "./components/NewsCard";
 
-export const revalidate = 1800; // revalidate cached data every 30 min
+
 
 export const metadata: Metadata = {
   title: "News | AniProject",
